@@ -5,6 +5,8 @@ import java.awt.Graphics;
 public class Cell {
 	private boolean alive = false;
 
+	public int numOfNeighbourLive = 0;
+
 	public void die() {
 		alive = false;
 	}
@@ -16,7 +18,8 @@ public class Cell {
 	public boolean isAlive() {
 		return alive;
 	}
-	//²âÊÔÖĞÎÄ×¢ÊÍ
+
+	// ²âÊÔÖĞÎÄ×¢ÊÍ
 	public void draw(Graphics g, int x, int y, int size) {
 		g.drawRect(x, y, size, size);
 		if (alive) {

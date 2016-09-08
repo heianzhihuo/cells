@@ -1,7 +1,6 @@
 package field;
 
 import java.util.ArrayList;
-
 import cell.Cell;
 
 public class Field {
@@ -13,6 +12,11 @@ public class Field {
 		this.width = width;
 		this.height = height;
 		field = new Cell[height][width];
+		for(int row=0;row<height;row++){
+			for(int col = 0;col<width;col++){
+				
+			}
+		}
 	}
 
 	public int getWidth() {

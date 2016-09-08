@@ -13,7 +13,7 @@ public class View extends JPanel {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private static final int GRID_SIZE = 5;
+	private static final int GRID_SIZE = 10;
 	private Field theField;
 
 	public View(Field field) {
