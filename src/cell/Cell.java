@@ -16,7 +16,7 @@ public class Cell {
 	public boolean isAlive() {
 		return alive;
 	}
-
+	//²âÊÔÖĞÎÄ×¢ÊÍ
 	public void draw(Graphics g, int x, int y, int size) {
 		g.drawRect(x, y, size, size);
 		if (alive) {
